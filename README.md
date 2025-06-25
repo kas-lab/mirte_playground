@@ -4,7 +4,7 @@
 
 Run container:
 ```Bash
-docker run -it --rm --gpus all --runtime=nvidia --name mirte -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -e NVIDIA_VISIBLE_DEVICES=all -e NVIDIA_DRIVER_CAPABILITIES=all -v /dev/dri:/dev/dri -v /tmp/.X11-unix:/tmp/.X11-unix -v /etc/localtime:/etc/localtime:ro -v $HOME/real_mirte_ws/src/mirte_navigation:/home/ubuntu-user/mirte_ws/src/mirte_navigation -v $HOME/real_mirte_ws/src/mirte_playground:/home/ubuntu-user/mirte_ws/src/mirte_playground mirte
+docker run -it --rm --gpus all --runtime=nvidia --name mirte -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -e NVIDIA_VISIBLE_DEVICES=all -e NVIDIA_DRIVER_CAPABILITIES=all -v /dev/dri:/dev/dri -v /tmp/.X11-unix:/tmp/.X11-unix -v /etc/localtime:/etc/localtime:ro -v $HOME/real_mirte_ws/src/mirte_navigation:/home/ubuntu-user/mirte_ws/src/mirte_navigation -v $HOME/real_mirte_ws/src/mirte_playground:/home/ubuntu-user/mirte_ws/src/mirte_playground --network host mirte
 ```
 
 ## Mapping
