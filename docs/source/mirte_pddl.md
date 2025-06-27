@@ -1,5 +1,7 @@
 # Mirte with PDDL
 
+[Video of Mirte moving around with PlanSys2](https://www.youtube.com/shorts/LW3ei5E4KZw)
+
 ## Run the mission
 
 ```Bash

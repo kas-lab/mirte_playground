@@ -22,6 +22,8 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx_autodoc_typehints",
     "myst_parser",
+    'sphinx.ext.intersphinx',
+    'sphinxcontrib.youtube'
 ]
 
 autosummary_generate = True
@@ -63,3 +65,4 @@ source_suffix = {
     '.md': 'markdown',
 }
 myst_heading_anchors = 3
+myst_enable_extensions = ["html_admonition", "html_image"]
