@@ -18,12 +18,13 @@ jobs:
       - uses: ros-tooling/setup-ros@0.7.14
         with:
           required-ros-distributions: humble
-      - uses: ros-tooling/action-ros-ci@0.3.5
+      - uses: ros-tooling/action-ros-ci@0.4.4
         id: action_ros_ci_step
         with:
           package-name: mirte_pddl
           target-ros2-distro: humble
           skip-tests: true
+          vcs-repo-file-url: https://raw.githubusercontent.com/kas-lab/mirte_playground/main/dependencies.repos
       - name: Install dependencies
         run: |
           pip install sphinx sphinx_rtd_theme myst_parser sphinx-autopackagesummary sphinx-autodoc-typehints
