@@ -29,6 +29,7 @@ jobs:
         run: |
           pip install sphinx sphinx_rtd_theme myst_parser sphinx-autopackagesummary sphinx-autodoc-typehints
       - name: Sphinx build
+        shell: bash
         run: |
           source ${{ steps.action_ros_ci_step.outputs.ros-workspace-directory-name }}/install/setup.bash && sphinx-build docs/source docs/build
       - name: Deploy to GitHub Pages
