@@ -24,7 +24,9 @@ RUN apt-get update && apt-get install -y \
     iputils-ping \
     ros-humble-topic-tools \
     ros-humble-rqt-tf-tree \
+    fuse \
     libfuse2 \
+    xterm \
     && rm -rf /var/lib/apt/lists/*
 
 RUN rosdep init
@@ -60,7 +62,7 @@ RUN curl -o groot.AppImage https://s3.us-west-1.amazonaws.com/download.behaviort
 RUN chmod +x groot.AppImage
 
 ## There is a bug with the default setuptools and packaging versions
-RUN USER=ubuntu-user python3 -m pip install setuptools==75.8.2  packaging==24.1 empy==3.3.4
+RUN USER=ubuntu-user python3 -m pip install setuptools==75.8.2  packaging==24.1 empy==3.3.4 pandas masced_bandits
 RUN ["/bin/bash", "-c", "source /opt/ros/humble/setup.bash \
     && colcon build --symlink-install \
     && echo 'source ~/mirte_ws/install/setup.bash' >> ~/.bashrc"]

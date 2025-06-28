@@ -26,8 +26,9 @@ repositories:
   rebet_mirte/rebet:
     type: git
     url: https://github.com/EGAlberts/ReBeT.git
-    version: a51f628
+    version: mc
   rebet_mirte/rebet_school:
     type: git
     url: https://github.com/EGAlberts/rebet_mirte.git
-    version: 35ff26f
+    version: school
+

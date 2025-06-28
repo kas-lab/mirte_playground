@@ -9,7 +9,7 @@ Robots like the Mirte Master produce lots of information. Mirte specifically pub
 
 ### System Reflection
 
-The system reflection node places data into the blackboard used by the nodes in the behavior tree. You can find its implementation in the `rebet_school/scripts/system_reflection.py` file.
+The system reflection node places data into the blackboard used by the nodes in the behavior tree. You can find its implementation in the `src/rebet_mirte/rebet_school/scripts/system_reflection.py` file.
 
 1. Add subscribers for the following topics:
     - `/io/distance/rear_left`
@@ -69,7 +69,7 @@ You should now see a behavior tree containing the three quality decorators you j
 **Checking your work**: To see if you have done everything correctly, run the following command on a computer connected to Mirte:
 
 ```bash
-ros2 launch rebet_school bringup_rebet_mirte.launch.py testing:=analysis
+ros2 launch rebet_school bringup_rebet_mirte.launch.py exercise:=analysis
 ```
 
 You should see entries in the blackboard corresponding to what is output by your QRDecorators. Depending on your chosen thresholds, you can watch as the status of your QRs change by, for example, putting your hand in front of Mirte's rear sonar sensors.
@@ -101,13 +101,13 @@ Once again, you can open Groot as follows:
 Pro tip! You can open multiple terminals into the docker container using the `docker exec -it mirte_playground bash` command in your system's terminal.
 ```
 
-Once again, open the `qrs_sleep.xml` file from before. In the menu on the bottom left, you can select various BT nodes, including those you have just been defining.
+This, open the `adap_qrs.xml` file adjacent to the other trees from before. In the menu on the bottom left, you can select various BT nodes, including those you have just been defining.
 
 ```{warning}
 If you added new ports to or changed existing ports of your decorators at any point, please ask Elvin to help you adjust the files to work with Groot properly.
 ```
 
-1. Define a new tree (right-click in the project view on the left) which makes use of multiple `NavigateToPose` actions and the decorator nodes in tandem. The `action_name` port for `NavigateToPose` is `navigate_to_pose`. The format for poses is interpreted as the xyz of the position followed by the xyzw of the rotation. You should separate the parts by semicolons like this: `-8.0;1.7;0;0;0;0;0;`. When you are done, right-click your new tree and press "set as the main tree to execute." Then save your work.
+1. Define a new tree (right-click in the project view on the left) which makes use of multiple `NavigateToPose` actions and the decorator nodes in tandem. The `action_name` port for `NavigateToPose` is `navigate_to_pose`. The format for poses is interpreted as the xyz of the position followed by the xyzw of the rotation. You should separate the parts by semicolons like this: `-8.0;1.7;0;0;0;0;0;`.
 
 We recommend adding a Sleep action node of a few seconds as the first in your tree, to give you time to make sure everything is ready before the tree starts executing.
 
@@ -116,7 +116,7 @@ We recommend adding a Sleep action node of a few seconds as the first in your tr
 Run the following command:
 
 ```bash
-ros2 launch rebet_school bringup_rebet_mirte.launch.py exercise:=execution my_tree:=<name_from_step_2>
+ros2 launch rebet_school bringup_rebet_mirte.launch.py exercise:=execution
 ```
 
 You will notice that Groot also opens. Instead of using it for editing, we will be using it to monitor the tree. Press the robot icon at the top left, input the port number 1667, and then press Connect. You should see the tree you made (keep in mind it needs to have been started) in action.
