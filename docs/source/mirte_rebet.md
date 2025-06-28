@@ -110,9 +110,6 @@ If you added new ports to or changed existing ports of your decorators at any po
 1. Define a new tree (right-click in the project view on the left) which makes use of multiple `NavigateToPose` actions and the decorator nodes in tandem. The `action_name` port for `NavigateToPose` is `navigate_to_pose`. The format for poses is interpreted as the xyz of the position followed by the xyzw of the rotation. You should separate the parts by semicolons like this: `-8.0;1.7;0;0;0;0;0;`.
 
 We recommend adding a Sleep action node of a few seconds as the first in your tree, to give you time to make sure everything is ready before the tree starts executing.
-
-2. Save the tree you made. Keep the name in mind; you will need it soon.
-
 Run the following command:
 
 ```bash
