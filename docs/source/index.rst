@@ -15,8 +15,10 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
    
+   mirte_setup
    docker
    mirte_pddl
+   mirte_rebet
    
 
 Contribute

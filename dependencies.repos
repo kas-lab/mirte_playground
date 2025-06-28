@@ -11,3 +11,23 @@ repositories:
     type: git
     url: https://github.com/PlanSys2/ros2_planning_system.git
     version: e2fd96e
+  rebet_mirte/behaviortree_ros2:
+    type: git
+    url: https://github.com/BehaviorTree/BehaviorTree.ROS2.git
+    version: cc31ea7
+  rebet_mirte/aal:
+    type: git
+    url: https://github.com/EGAlberts/AAL-ROS2.git
+    version: 0464bfc
+  rebet_mirte/behaviortree_cpp:
+    type: git
+    url: https://github.com/EGAlberts/BehaviorTree.CPP.git
+    version: 244bbe2 
+  rebet_mirte/rebet:
+    type: git
+    url: https://github.com/EGAlberts/ReBeT.git
+    version: a51f628
+  rebet_mirte/rebet_school:
+    type: git
+    url: https://github.com/EGAlberts/rebet_mirte.git
+    version: 35ff26f

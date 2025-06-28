@@ -22,8 +22,9 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx_autodoc_typehints",
     "myst_parser",
-    'sphinx.ext.intersphinx',
-    'sphinxcontrib.youtube'
+    "sphinx.ext.intersphinx",
+    "sphinxcontrib.youtube",
+    "sphinx_copybutton",
 ]
 
 autosummary_generate = True

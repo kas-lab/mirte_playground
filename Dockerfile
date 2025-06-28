@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install -y \
     iputils-ping \
     ros-humble-topic-tools \
     ros-humble-rqt-tf-tree \
+    libfuse2 \
     && rm -rf /var/lib/apt/lists/*
 
 RUN rosdep init
@@ -53,6 +54,10 @@ RUN ["/bin/bash", "-c", "source /opt/ros/humble/setup.bash \
     && rosdep update \
     && rosdep install --from-paths src --ignore-src -r -y \
     && sudo rm -rf /var/lib/apt/lists/"]
+    
+RUN curl -o groot.AppImage https://s3.us-west-1.amazonaws.com/download.behaviortree.dev/groot2_linux_installer/Groot2-v1.6.1-x86_64.AppImage
+
+RUN chmod +x groot.AppImage
 
 ## There is a bug with the default setuptools and packaging versions
 RUN USER=ubuntu-user python3 -m pip install setuptools==75.8.2  packaging==24.1 empy==3.3.4
