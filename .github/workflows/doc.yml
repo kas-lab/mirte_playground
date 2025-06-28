@@ -27,8 +27,7 @@ jobs:
           vcs-repo-file-url: https://raw.githubusercontent.com/kas-lab/mirte_playground/main/dependencies.repos
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme myst_parser sphinx-autopackagesummary sphinx-autodoc-typehints sphinxcontrib-youtube
-sphinx-copybutton
+          pip install sphinx sphinx_rtd_theme myst_parser sphinx-autopackagesummary sphinx-autodoc-typehints sphinxcontrib-youtube sphinx-copybutton
       - name: Sphinx build
         shell: bash
         run: |
