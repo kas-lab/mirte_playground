@@ -81,5 +81,5 @@ sudo iptables -t nat -A POSTROUTING -o $wifi -j MASQUERADE
 
 Afterwards you can ssh into the MIRTE and execute the `install_mirte.sh` script on it by excuting the following command 
 ```bash
-`curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/SuperJappie08/mirte-demo-ensurance/refs/heads/development-detection/install_mirte.sh | bash`
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/SuperJappie08/mirte-demo-ensurance/refs/heads/development-detection/install_mirte.sh | bash
 ```
