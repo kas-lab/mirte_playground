@@ -3,6 +3,27 @@
 Welcome to the self-adaptation exercises.  
 Now that you know a little bit about self-adaptation, it is time to put it into practice with your Mirte Master robot. These exercises revolve around the four phases of the MAPE-K loop (Monitoring, Analysis, Planning, and Execution). This will be implemented in the ReBeT (**Re**-configuration with **Be**havior **T**rees) framework.
 
+## Getting Started
+We are using the same image as for with PDDL. However, the run command has been modified slightly. Please use the following commands to run the a container:
+
+
+1. First allow xhost
+
+```bash
+xhost +
+```
+
+2. And then the container
+
+```bash
+docker run -it --rm --name mirte -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -v /dev/dri:/dev/dri -v /tmp/.X11-unix:/tmp/.X11-unix -v /etc/localtime:/etc/localtime:ro --network host --cap-add SYS_ADMIN --device /dev/fuse --security-opt apparmor:unconfined ghcr.io/kas-lab/mirte_playground:main
+```
+
+I recommend using Visual studio code to connect to the running container.
+You need to install the dev containers extension and then use the command palette (in View menu) for the action 'Attach to running container'
+
+You can then open the mirte_ws folder inside the container.
+
 ## Monitoring
 
 Robots like the Mirte Master produce lots of information. Mirte specifically publishes many ROS2 topics for you to consider in a self-adaptive system's monitoring. We specifically want to monitor information that tells us something about the current state of Mirte with regard to the quality attributes, like performance or safety, which matter to us.
@@ -29,21 +50,30 @@ The `/diagnostics` topic is used for publishing lots of different data. In the c
 
 For both of these steps, the subscriber to the LaserScan topic serves as an example of what is expected.
 
-**Checking your work**: To see if you have done everything correctly, run the following command on a computer connected to Mirte:
+**Checking your work**: To see if you have done everything correctly, run the following command on a computer connected to Mirte, but inside:
 
 ```bash
 ros2 launch rebet_school bringup_rebet_mirte.launch.py exercise:=monitoring
 ```
 
+If you only want to check that your new subscribers are working, before bothering with the blackboard you can of course run the system reflection node in isolation like this:
+
+```bash
+ros2 run rebet_school system_reflection.py
+```
+
 You should see the `mirte_arborist` terminal outputting the contents of the blackboard.
 
+```{note}
+The output may be a bit messy. You can uncomment line 28 in rebet_school/launch/arborist_config_launch.py to make a separate terminal for the blackboard contents.
+```
 ## Analysis
 
 Analysis uses the information obtained during monitoring to determine if an adaptation is necessary. The necessity for adaptation is typically described through adaptation goals. In ReBeT, adaptation goals are expressed through quality requirements. For example, a safety quality requirement might be not to collide with any objects.
 
 ReBeT allows you to express quality requirements through a special kind of decorator node called a **QRDecorator**. These requirements express a constraint placed on the behavior tree nodes below them in the tree.
 
-In the `rebet_school/include/quality_requirements.hpp` file, you will find three QRDecorators declared. However, only the first one, `NoObjectsNearbyQR`, is defined. This QR corresponds to the quality requirement: *There shall be no objects within X percent of the lidar range of the robot*, with X being a threshold that can be specified through an input port to the quality requirement.
+In the `rebet_school/include/quality_requirements.hpp` file, you will find three QRDecorators declared. However, only the first one, `NoObjectsNearbyQR`, is fully implemented. This QR corresponds to the quality requirement: *There shall be no objects within X percent of the lidar range of the robot*, with X being a threshold that can be specified through an input port to the quality requirement.
 
 1. Implement the `calculate_measure` method of `InTheWayQR`. The corresponding natural language quality requirement is: *The robot shall not pose an obstacle to humans standing behind it*. All the required input ports have already been declared for you. You can follow the example in `NoObjectsNearbyQR`.
 
@@ -58,15 +88,20 @@ Not all the data required for calculating a measure may be available at the exac
 Before you can check your work, you need to fill in some missing details in the behavior tree specification using your QRs. You can use the following command to open Groot2, an IDE for behavior trees:
 
 ```bash
-~/groot.AppImage
+~/mirte_ws/groot.AppImage
 ```
 
 Within Groot, use the 'Load Project/File' button to open the file `src/rebet_school/trees/qrs_sleep`.
 You should now see a behavior tree containing the three quality decorators you just worked on.
 
-4. Wherever you see `<REPLACE>`, replace the string with the name for the corresponding blackboard entry you chose when completing step 2 of the Monitoring exercise. You can save your work by right-clicking the entries in the Project tree on the left.
+![Load Project/File](images/groot_load.png)
 
-**Checking your work**: To see if you have done everything correctly, run the following command on a computer connected to Mirte:
+4. Wherever you see `<REPLACE>`, replace the string with the name for the corresponding blackboard entry you chose when completing step 2 of the Monitoring exercise. You should just set all the weights to 1, they are not used. You can save your work by right-clicking the entries in the Project tree on the left.
+
+![Save](images/groot_save.png)
+
+
+**Checking your work**: To see if you have done everything correctly, run the following command on a computer connected to Mirte, in the container:
 
 ```bash
 ros2 launch rebet_school bringup_rebet_mirte.launch.py exercise:=analysis
@@ -94,7 +129,7 @@ The actual execution of adaptations as described in MAPE-K is already taken care
 Once again, you can open Groot as follows:
 
 ```bash
-~/groot.AppImage
+~/mirte_ws/groot.AppImage
 ```
 
 ```{note}
