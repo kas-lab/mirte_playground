@@ -1,0 +1,7 @@
+sphinx
+sphinx_rtd_theme
+myst_parser
+sphinx-autopackagesummary
+sphinx-autodoc-typehints
+sphinxcontrib-youtube
+sphinx-copybutton
