@@ -9,6 +9,7 @@
 project = 'mirte_playground'
 copyright = '2025, Gustavo Rezende'
 author = 'Gustavo Rezende'
+gitrepo = project  # TODO: Update this when changed
 release = '0'
 
 # -- General configuration ---------------------------------------------------
@@ -20,6 +21,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
+    "sphinx.ext.extlinks",
     "sphinx_autodoc_typehints",
     "myst_parser",
     "sphinx.ext.intersphinx",
@@ -30,6 +32,14 @@ extensions = [
 autosummary_generate = True
 
 autoclass_content = 'both'
+
+extlinks = {
+    # TODO: Update `main` to be correct tag
+    '2025-playground-file': (
+        f'https://github.com/kas-lab/{gitrepo}/blob/main/%s',
+        None
+     )
+}
 
 intersphinx_mapping = {
     "rtd": ("https://docs.readthedocs.io/en/stable/", None),
@@ -57,6 +67,8 @@ html_theme = "sphinx_rtd_theme"
 html_theme_options = {
     'navigation_depth': -1
 }
+
+pygments_style = 'sphinx'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

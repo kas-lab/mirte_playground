@@ -6,10 +6,6 @@ SE-Robotics Summer School 2025
    :maxdepth: 3
 
    day1/index
+   day2/index
+   day3/index
 
-   mirte_pddl
-   mirte_rebet
-
-   .. :caption: Contents:
-..    mirte_setup
-..    docker
