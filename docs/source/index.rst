@@ -20,6 +20,7 @@ documentation for details.
 
 .. toctree::
    :caption: Editions:
+   :maxdepth: 1
 
    20XX/index
    2025/index
