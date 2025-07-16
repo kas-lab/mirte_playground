@@ -47,7 +47,7 @@ Make Mirte navigate
 
 To make Mirte navigate, click on the ``Nav2 Goal`` button on the top part of the RVIZ screen then click on a point in the map to make it move there.
 
-.. image:: ../nav2goal.png
+.. image:: images/nav2goal.png
    :alt: RVIZ2 default toolbar
 
 .. ![alt text](nav2goal.png)
@@ -61,14 +61,14 @@ Save map
 To save the map you just created, first you need to add the SlamToolboxPlugin to RVIZ.
 For that, on the top left part of RVIZ, click on ``Panels`` > ``Add new panel`` > ``SlamToolBoxPlugin``:
 
-.. image:: ../rviz_add_slam_toolbox_plugin.png
+.. image:: images/rviz_add_slam_toolbox_plugin.png
    :alt: Add SlamToolboxPlugin panel to RVIZ
 
 .. ![alt text](rviz_add_slam_toolbox_plugin.png)
 
 After adding the panel, it should show up in the bottom left part of RVIZ
 
-.. image:: ../toolbox.png
+.. image:: images/toolbox.png
    :alt: SlamToolboxPlugin panel in RVIZ
 
 .. ![alt text](toolbox.png)

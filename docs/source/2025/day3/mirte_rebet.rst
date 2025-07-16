@@ -127,7 +127,7 @@ You can use the following command to open Groot2, an IDE for behavior trees:
 Within Groot, use the 'Load Project/File' button to open the file ``src/rebet_school/trees/qrs_sleep``.
 You should now see a behavior tree containing the three quality decorators you just worked on.
 
-.. image:: ../images/groot_load.png
+.. image:: images/groot_load.png
    :alt: Load Project/File
 
 .. ![Load Project/File](images/groot_load.png)
@@ -136,7 +136,7 @@ You should now see a behavior tree containing the three quality decorators you j
 You should just set all the weights to 1, they are not used.
 You can save your work by right-clicking the entries in the Project tree on the left.
 
-.. images:: ../images/groot_save.png
+.. image:: images/groot_save.png
    :alt: Save
 
 .. ![Save](images/groot_save.png)
@@ -190,7 +190,6 @@ Once again, you can open Groot as follows:
 
 .. tip::
 
-   .. Pro tip!
    You can open multiple terminals into the docker container using the ``docker exec -it mirte_playground bash`` command in your system's terminal.
 
 This, open the ``adap_qrs.xml`` file adjacent to the other trees from before.

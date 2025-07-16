@@ -8,7 +8,7 @@ If you connect it to your laptop, you'll need to change one setting to have your
 Go to settings, Network, Wired settings, IPv4, click on "Shared to other computers". See the attachment for the button.
 You might need to unplug and plug it back in after changing the settings.
 
-.. image:: ../images/ethernet_settings.png
+.. image:: images/ethernet_settings.png
    :alt: Ethernet Settings Screenshot
 
 .. ![Ethernet Settings Screenshot](images/ethernet_settings.png)

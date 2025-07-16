@@ -1,4 +1,0 @@
-Lecture
-=======
-
-Lecture info here

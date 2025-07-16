@@ -6,15 +6,16 @@ Keynotes
 --------
 
 .. toctree::
-   
-   lecture
+   :maxdepth: 2
+
+   opening
 
 
 Practical Session
 -----------------
 
 .. toctree::
-   :maxdepth: 3
-   
+   :maxdepth: 2
+
    mirte_setup
    docker

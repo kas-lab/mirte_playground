@@ -27,12 +27,12 @@ License
 
 The project is licensed under the Apache 2.0 license
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-   
-   mirte_setup
-   docker
-   mirte_pddl
-   mirte_rebet
+.. .. toctree::
+..    :maxdepth: 2
+..    :caption: Contents:
+..    
+..    mirte_setup
+..    docker
+..    mirte_pddl
+..    mirte_rebet
    
