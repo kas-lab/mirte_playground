@@ -1,15 +1,14 @@
-=========================================================
-Day 1 - June 30th: Building and Deploying Robotic Systems
-=========================================================
+==========================================================
+Day 1 -- June 30th: Building and Deploying Robotic Systems
+==========================================================
 
-Keynotes
---------
+Presentations
+-------------
 
 .. toctree::
    :maxdepth: 2
 
-   opening
-
+   intro-ros2
 
 Practical Session
 -----------------
@@ -17,5 +16,5 @@ Practical Session
 .. toctree::
    :maxdepth: 2
 
-   mirte_setup
-   docker
+   mirte-master-setup
+   mirte-master-ros2

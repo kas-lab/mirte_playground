@@ -38,6 +38,10 @@ extlinks = {
     '2025-playground-file': (
         f'https://github.com/kas-lab/{gitrepo}/blob/main/%s',
         None
+     ),
+     'GitHub': (
+         'https://GitHub.com/%s',
+         'GitHub: %s'
      )
 }
 

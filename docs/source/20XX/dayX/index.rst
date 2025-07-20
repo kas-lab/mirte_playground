@@ -1,25 +1,24 @@
-===============================================
-Day X - MONTH DAYth: The Title/Theme of the Day
-===============================================
+================================================
+Day X -- MONTH DAYth: The Title/Theme of the Day
+================================================
 
+Presentations
+-------------
 
-Keynotes
---------
-
-.. toctree:: 
+.. toctree::
    :maxdepth: 2
 
-   some-keynote
+   some-presentation
 
-Other Cool Keynote
-^^^^^^^^^^^^^^^^^^
-Alternatively, keynote information and slides could go here directly.
+Other Cool Keynote/Presentation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Alternatively, keynote/presentation information and slides could go here directly.
 
 
 Practical Session
 -----------------
 
-.. toctree:: 
+.. toctree::
    :maxdepth: 2
 
    some-practical

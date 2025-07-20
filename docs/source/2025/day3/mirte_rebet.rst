@@ -1,9 +1,11 @@
+.. _2025-mirte-rebet:
+
 **************************
-Self-Adaptation with Mirte
+Self-Adaptation with MIRTE
 **************************
 
 Welcome to the self-adaptation exercises.  
-Now that you know a little bit about self-adaptation, it is time to put it into practice with your Mirte Master robot.
+Now that you know a little bit about self-adaptation, it is time to put it into practice with your MIRTE Master robot.
 These exercises revolve around the four phases of the MAPE-K loop (Monitoring, Analysis, Planning, and Execution).
 This will be implemented in the ReBeT (**Re**-configuration with **Be**\ havior **T**\ rees) framework.
 

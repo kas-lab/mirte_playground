@@ -1,14 +1,15 @@
-================================================================================
-Day 2 - July 1st: Deliberation, Planning, and Execution in Robotic Architectures
-================================================================================
+=================================================================================
+Day 2 -- July 1st: Deliberation, Planning, and Execution in Robotic Architectures
+=================================================================================
 
-Keynotes
---------
+Presentations
+-------------
 
 .. toctree::
    :maxdepth: 2
 
-   self
+   cognitive-architectures-for-robotics
+   planning-domain-definition-language
 
 
 Practical Session
@@ -17,4 +18,5 @@ Practical Session
 .. toctree::
    :maxdepth: 2
 
-   mirte_pddl
+   pddl-for-robotics
+   pddl-with-mirte

@@ -1,20 +1,22 @@
-==========================================================
-Day 3 - July 2nd: Robot software architecting and modeling
-==========================================================
+===========================================================
+Day 3 -- July 2nd: Robot software architecting and modeling
+===========================================================
 
-Keynotes
---------
+Presentations
+-------------
 
 .. toctree::
    :maxdepth: 2
 
-   self
-
+   software-and-systems-design-process
+   model-based-system-architecture
+   self-adaptation-in-robotics
 
 Practical Session
 -----------------
 
 .. toctree::
+   :includehidden:
    :maxdepth: 2
 
-   mirte_rebet
+   applied-self-adaptation

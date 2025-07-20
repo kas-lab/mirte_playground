@@ -1,6 +1,6 @@
-***************
-Mirte with PDDL
-***************
+******************************
+MIRTE with PDDL (Instructions)
+******************************
 
 .. _PDDL: https://planning.wiki/guide/whatis/pddl
 .. _PlanSys2: https://plansys2.github.io/
@@ -59,7 +59,9 @@ Save map
 --------
 
 To save the map you just created, first you need to add the SlamToolboxPlugin to RVIZ.
-For that, on the top left part of RVIZ, click on ``Panels`` > ``Add new panel`` > ``SlamToolBoxPlugin``:
+For that, on the top left part of RVIZ, click on :menuselection:`Panels --> Add new panel --> SlamToolBoxPlugin`:
+
+.. ``Panels`` > ``Add new panel`` > ``SlamToolBoxPlugin``
 
 .. image:: images/rviz_add_slam_toolbox_plugin.png
    :alt: Add SlamToolboxPlugin panel to RVIZ
@@ -74,6 +76,8 @@ After adding the panel, it should show up in the bottom left part of RVIZ
 .. ![alt text](toolbox.png)
 
 Insert the following path in the field in front of the ``Save Map`` button and click on the button:
+
+.. Could also use the :file:`` directive here
 
 .. code-block:: bash
 

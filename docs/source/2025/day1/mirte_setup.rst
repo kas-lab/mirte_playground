@@ -1,3 +1,5 @@
+.. _2025-mirte-setup:
+
 ****************
 Setting up Mirte
 ****************
@@ -5,7 +7,8 @@ Setting up Mirte
 Connecting to the robot with ethernet
 =====================================
 If you connect it to your laptop, you'll need to change one setting to have your laptop give your robot an IP address.
-Go to settings, Network, Wired settings, IPv4, click on "Shared to other computers". See the attachment for the button.
+Go to settings, Network, Wired settings, IPv4 (:menuselection:`Settings --> Network --> Wired settings --> IPv4`), click on "Shared to other computers".
+See the attachment for the button.
 You might need to unplug and plug it back in after changing the settings.
 
 .. image:: images/ethernet_settings.png
