@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'mirte_playground'
-copyright = '2025, Gustavo Rezende'
-author = 'Gustavo Rezende'
-gitrepo = project  # TODO: Update this when changed
+project = 'ACM SIGSOFT Summer School for Software Engineering in Robotics'
+copyright = '2025, Gustavo Rezende'  # TODO: Update this
+author = 'Gustavo Rezende'  # TODO: Update this
+gitrepo = 'mirte_playground'  # TODO: Update this when changed
 release = '0'
 
 # -- General configuration ---------------------------------------------------
@@ -68,6 +68,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
+html_title = 'ACM SIGSOFT Summer School for Software Engineering in Robotics'
 html_theme_options = {
     'navigation_depth': -1
 }

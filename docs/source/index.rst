@@ -3,31 +3,29 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-SE-Robotics Summer Schools
-==========================
+==============================================================
+ACM SIGSOFT Summer School for Software Engineering in Robotics
+==============================================================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+This websites containts the materials for the :abbr:`SE-Robotics Summer School (ACM SIGSOFT Summer School for Software Engineering in Robotics)`.
 
 .. toctree::
    :includehidden:
    :hidden:
    
-   self
+   SE-Robotics Summer Schools <self>
    contact
 
 .. toctree::
    :caption: Editions:
    :maxdepth: 1
 
-   20XX/index
-   2025/index
+   SE-Robotics Summer School 2025 <2025/index>
 
+.. SE-Robotics Summer School 20XX <20XX/index>
 
-.. :maxdepth: 2
-.. :titlesonly:
-..    :caption: Contents:
+License
+-------
 
+The project is licensed under the Apache 2.0 license
 
