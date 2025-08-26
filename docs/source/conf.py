@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'ACM SIGSOFT Summer School for Software Engineering in Robotics'
-copyright = '2025, Gustavo Rezende'  # TODO: Update this
-author = 'Gustavo Rezende'  # TODO: Update this
-gitrepo = 'mirte_playground'  # TODO: Update this when changed
+copyright = '2025, KAS Lab, TU Delft'  # TODO: Update this
+author = 'Gustavo Rezende, Jasper van Brakel, Elvin Alberts, Carlos Hernandez'  # TODO: Update this
+gitrepo = 'se_robotics_school'  # TODO: Update this when changed
 release = '0'
 
 # -- General configuration ---------------------------------------------------
