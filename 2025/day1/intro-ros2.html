@@ -1,0 +1,160 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intro to ROS 2 and Robot Programming &mdash; ACM SIGSOFT Summer School for Software Engineering in Robotics</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=8dde47fa"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="MIRTE Master Setup" href="mirte-master-setup.html" />
+    <link rel="prev" title="Day 1 – June 30th: Building and Deploying Robotic Systems" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            ACM SIGSOFT Summer School for Software Engineering in Robotics
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">SE-Robotics Summer Schools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contact.html">Contact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Editions:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">SE-Robotics Summer School 2025</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Day 1 – June 30th: Building and Deploying Robotic Systems</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="index.html#lectures">Lectures</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Intro to ROS 2 and Robot Programming</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#preparation">Preparation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#practical-sessions">Practical Sessions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../day2/index.html">Day 2 – July 1st: Deliberation, Planning, and Execution in Robotic Architectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../day3/index.html">Day 3 – July 2nd: Robot software architecting and modeling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../day4/index.html">Day 4 – July 3rd: Verification and Validation (V&amp;V) of Autonomous Robots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../day5/index.html">Day 5 – July 4th: Robots in Society</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ACM SIGSOFT Summer School for Software Engineering in Robotics</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">ACM SIGSOFT Summer School for Software Engineering in Robotics 2025</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Day 1 – June 30th: Building and Deploying Robotic Systems</a></li>
+      <li class="breadcrumb-item active">Intro to ROS 2 and Robot Programming</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/2025/day1/intro-ros2.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="intro-to-ros-2-and-robot-programming">
+<h1>Intro to ROS 2 and Robot Programming<a class="headerlink" href="#intro-to-ros-2-and-robot-programming" title="Link to this heading"></a></h1>
+<blockquote>
+<div><p><em>9:30 - 12:30</em> – José Miguel Guerrero</p>
+</div></blockquote>
+<p>This course introduces students to the fundamentals of ROS 2, including its architecture and core communication concepts.
+Through hands-on activities, students will develop a ROS 2-based perception-decision-action loop that enables robots to detect obstacles and respond autonomously.
+The course emphasizes practical experience in building autonomous robotic behaviors using modern, modular software tools.</p>
+<dl class="simple">
+<dt>Session materials:</dt><dd><ul class="simple">
+<li><p><a class="reference download internal" download="" href="../../_downloads/b1e066e8153b634ac7ea4d5bc3bf21be/ros2_introduction_JMGuerrero.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Slides:</span> <span class="pre">Intro</span> <span class="pre">to</span> <span class="pre">ROS</span> <span class="pre">2</span> <span class="pre">&amp;</span> <span class="pre">Robot</span> <span class="pre">Programmimg</span></code></a></p></li>
+</ul>
+</dd>
+</dl>
+<section id="preparation">
+<h2>Preparation<a class="headerlink" href="#preparation" title="Link to this heading"></a></h2>
+<p>Please, carefully follow the steps outlined in the repository ahead of the practical session to ensure everything runs smoothly and we make the most of the available time:</p>
+<blockquote>
+<div><p><a class="extlink-GitHub reference external" href="https://GitHub.com/IntelligentRoboticsLabs/docker_infrastructure">GitHub: IntelligentRoboticsLabs/docker_infrastructure</a> (<a class="extlink-GitHub reference external" href="https://GitHub.com/IntelligentRoboticsLabs/docker_infrastructure/tree/c200f5a526376cdae607260f4cd65e9dba4f3590">Period accurate</a>)</p>
+</div></blockquote>
+<p><strong>Bio. José Miguel Guerrero Hernández</strong> earned his Bachelor’s Degree, Master’s Degree, and Doctorate in Computer Science from the Universidad Complutense de Madrid (UCM) in 2008, 2010, and 2015, respectively. He was a predoctoral fellow of the training research program at UCM (2011-2013) and a subprogram university lecturer (FPU) at the MECD (2013-2015). Following this, he served as a postdoctoral research assistant at UCM (2015-2017), UNED (2017-2018), and CIEMAT (2018-2019), before becoming a Professor at Universidad Rey Juan Carlos (2019-present). He graduated with honors and has been the recipient of multiple grants and awards.</p>
+<p>He has participated as a researcher in 5 European Projects (1 as Co-IP), 9 projects of the National Plan, 1 project of the Comunidad de Madrid, and 3 Art.-83 projects, collaborating with multinational and national companies, research centers, and universities. During his predoctoral stay at the Intelligent Systems and Robotics group at Freie Universität Berlin (Germany), he applied vision-based machine learning approaches for perceptual tasks on an autonomous car to detect curbs and road limits in real-time.</p>
+<p>He has 41 publications (with over 1600 citations and an h-index of 14. He has participated in 5 international committees and representations, served as a Guest Editor in Frontiers, and has been a recognized reviewer in international JCR-indexed journals since 2013.</p>
+<p>His research focuses on the development of new multisensory fusion techniques for Perception Systems applied to Precision Agriculture, Marine Navigation, Social Robots, Autonomous Robot Localization and Navigation in indoor and outdoor environments, and the development of real-time applications in C++ and ROS.
+Currently, he works as an Associate Professor (Profesor Titular de Universidad) in the Signal Theory, Communications, Telematics Systems, and Computation Department at Universidad Rey Juan Carlos (URJC). He has been recognized with 2 six-year research periods (sexenios) and 2 teaching periods (1 quinquenio, 1 DOCENTIA). He is the mobility coordinator for the Bachelor’s Degree in Robotics Software Engineering, a member of the Intelligent Robotics Lab group, and an active member of the ROS/ROS 2 community.
+He has contributed to the development of new didactic tools, including a book chapter, a radio program, and participation in 7 Educational Innovation projects. Furthermore, he has taught various courses at Universidad Complutense de Madrid, supervised 11 Final Degree Projects (URJC) and 8 Final Master’s Dissertations at different universities (UCM, UNED, UNIR), and has been part of evaluation committees for 26 Final Degree Projects and 85 Master’s Dissertations.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Day 1 – June 30th: Building and Deploying Robotic Systems" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="mirte-master-setup.html" class="btn btn-neutral float-right" title="MIRTE Master Setup" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, KAS Lab, TU Delft.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
