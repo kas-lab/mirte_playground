@@ -2,7 +2,7 @@
 Day 1 -- June 30th: Building and Deploying Robotic Systems
 ==========================================================
 
-Presentations
+Lectures
 -------------
 
 .. toctree::
@@ -10,7 +10,7 @@ Presentations
 
    intro-ros2
 
-Practical Session
+Practical Sessions
 -----------------
 
 .. toctree::

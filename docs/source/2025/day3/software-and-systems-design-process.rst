@@ -1,5 +1,5 @@
 *****************************************************************************
-Keynote: Software and systems design process: Introducing the whole lifecycle
+**Keynote:** Software and systems design process: Introducing the whole lifecycle
 *****************************************************************************
    *09:00 - 10:30* -- Davide Brugali
 

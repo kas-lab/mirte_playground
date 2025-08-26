@@ -1,5 +1,5 @@
 ***********************************************************************************************************************
-Keynote: Software Engineering for Reliable Autonomous Robots - Approaches and Challenges from an Industrial Perspective
+**Keynote:** Software Engineering for Reliable Autonomous Robots - Approaches and Challenges from an Industrial Perspective
 ***********************************************************************************************************************
    *9:00 - 10:00* -- Michaela Klauck
 

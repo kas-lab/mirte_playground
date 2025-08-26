@@ -2,7 +2,7 @@
 Day 5 -- July 4th: Robots in Society
 ====================================
 
-Presentations
+Keynotes
 -------------
 
 .. toctree::
@@ -11,7 +11,7 @@ Presentations
    democratizing-the-use-of-robots
    how-to-study-future-human-robot-interaction
 
-Practical Session
+Practical Sessions
 -----------------
 
 .. toctree::

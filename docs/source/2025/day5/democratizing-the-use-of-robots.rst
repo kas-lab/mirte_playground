@@ -1,5 +1,5 @@
 ****************************************
-Keynote: Democratizing the use of robots
+**Keynote:** Democratizing the use of robots
 ****************************************
    *9:00 - 10:30* -- Patrizio Pelliccione
 

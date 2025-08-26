@@ -2,7 +2,7 @@
 Day 3 -- July 2nd: Robot software architecting and modeling
 ===========================================================
 
-Presentations
+Lectures
 -------------
 
 .. toctree::
@@ -12,7 +12,7 @@ Presentations
    model-based-system-architecture
    self-adaptation-in-robotics
 
-Practical Session
+Practical Sessions
 -----------------
 
 .. toctree::

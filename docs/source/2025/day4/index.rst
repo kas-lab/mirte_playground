@@ -2,7 +2,7 @@
 Day 4 -- July 3rd: Verification and Validation (V&V) of Autonomous Robots
 =========================================================================
 
-Presentations
+Lectures
 -------------
 
 .. toctree::
@@ -13,7 +13,7 @@ Presentations
    introduction-to-model-checking-methods
    model-checking-in-industry-and-the-convince-project
 
-Practical Session
+Practical Sessions
 -----------------
 
 .. toctree::

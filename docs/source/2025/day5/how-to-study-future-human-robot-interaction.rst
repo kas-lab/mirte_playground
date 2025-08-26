@@ -1,5 +1,5 @@
 *****************************************************************
-Keynote: How to study future human robot interaction in the wild?
+**Keynote:** How to study future human robot interaction in the wild?
 *****************************************************************
    *11:00 - 12:30* -- An Jacobs, Shirley Elprama
 

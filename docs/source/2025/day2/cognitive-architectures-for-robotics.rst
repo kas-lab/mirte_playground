@@ -1,5 +1,5 @@
 *****************************************************************
-Keynote: Cognitive Architectures for Robust and Reliable Robotics
+*Keynote:* Cognitive Architectures for Robust and Reliable Robotics
 *****************************************************************
    *9:00 - 10:30* -- Esther Aguado
 
@@ -16,3 +16,12 @@ The talk will highlight ongoing research efforts that support the vision of buil
 
 Session materials:
  - :download:`Slides: Cognitive Architectures for Robust and Reliable Robotics <slides/Keynote_CognitiveArchitectures_EAguado.pdf>`
+
+**Bio Esther Aguado** holds a PhD in Automation and Robotics from the Polytechnic University of Madrid (UPM, 2024). Her research focuses on techniques that provide guarantees on robot behavior through introspection and adaptation.
+
+She graduated in Industrial Technology Engineering (UPM, 2017), with a specialization in
+Electronics and Automation. He completed his training with a Master's degree in Industrial Engineering (UPM, 2019) and a Master's degree in Automation and Robotics (UPM, 2020). In 2019, he joined the Center for Automation and Robotics (CAR-CSIC) with a Collaboration Grant, participating in the development of sound localization systems for robots. During his PhD, he worked on the design of robust systems applied to underground mining, social robotics, and industrial robotics, with competitive predoctoral funding.
+
+Her thesis, "SysSelf: Systems that know what they are doing," awarded Outstanding Cum Laude with International Mention, establishes a framework for autonomous systems to regulate their own control processes in real time. 
+
+She has published in JCR journals, participated in national and international conferences, and is a co-inventor of a patent. She was a visiting researcher at TU Delft (Netherlands) in 2022 and 2024. She is currently an Assistant Professor at the Rey Juan Carlos University, where she teaches Telematics Engineering and Robotics, and continues her research work on intelligent systems with behavioral guarantees.
