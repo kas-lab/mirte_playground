@@ -3,36 +3,29 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-mirte_playground documentation
-==============================
+==============================================================
+ACM SIGSOFT Summer School for Software Engineering in Robotics
+==============================================================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+This websites containts the materials for the :abbr:`SE-Robotics Summer School (ACM SIGSOFT Summer School for Software Engineering in Robotics)`.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :includehidden:
+   :hidden:
    
-   mirte_setup
-   docker
-   mirte_pddl
-   mirte_rebet
-   
+   SE-Robotics Summer Schools <self>
+   contact
 
-Contribute
-----------
+.. toctree::
+   :caption: Editions:
+   :maxdepth: 1
 
-- Issue Tracker: https://github.com/kas-lab/mirte_playground/issues
-- Source Code: https://github.com/kas-lab/mirte_playground/
+   SE-Robotics Summer School 2025 <2025/index>
 
-Support
--------
-
-If you are having issues, please let us know by creating an issue in github.
+.. SE-Robotics Summer School 20XX <20XX/index>
 
 License
 -------
 
 The project is licensed under the Apache 2.0 license
+
