@@ -3,7 +3,7 @@ Day 5 -- July 4th: Robots in Society
 ====================================
 
 Keynotes
--------------
+--------
 
 .. toctree::
    :maxdepth: 2
@@ -12,7 +12,7 @@ Keynotes
    how-to-study-future-human-robot-interaction
 
 Practical Sessions
------------------
+------------------
 
 .. toctree::
    :maxdepth: 2

@@ -107,7 +107,7 @@ Please of course replace the parts between ``< >`` with your computer specific d
 
 The patch
 ---------
-Afterwards you can ssh into the MIRTE and execute the `install_mirte.sh` script on it by excuting the following command 
+Afterwards you can ssh into the MIRTE and execute the `install_mirte.sh` script on it by executing the following command
 
 .. code-block:: bash
 

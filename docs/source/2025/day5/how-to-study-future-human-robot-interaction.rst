@@ -1,6 +1,6 @@
-*****************************************************************
+*********************************************************************
 **Keynote:** How to study future human robot interaction in the wild?
-*****************************************************************
+*********************************************************************
    *11:00 - 12:30* -- An Jacobs, Shirley Elprama
 
 This talk will focus on the importance of testing robots outside the lab and conducting field studies "in the wild".

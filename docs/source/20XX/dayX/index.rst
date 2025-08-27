@@ -15,8 +15,8 @@ Other Cool Keynote/Presentation
 Alternatively, keynote/presentation information and slides could go here directly.
 
 
-Practical Session
------------------
+Practical Sessions
+------------------
 
 .. toctree::
    :maxdepth: 2

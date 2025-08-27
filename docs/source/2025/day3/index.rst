@@ -3,7 +3,7 @@ Day 3 -- July 2nd: Robot software architecting and modeling
 ===========================================================
 
 Lectures
--------------
+--------
 
 .. toctree::
    :maxdepth: 2
@@ -13,7 +13,7 @@ Lectures
    self-adaptation-in-robotics
 
 Practical Sessions
------------------
+------------------
 
 .. toctree::
    :includehidden:

@@ -1,6 +1,6 @@
-***********************************************************************************************************************
+***************************************************************************************************************************
 **Keynote:** Software Engineering for Reliable Autonomous Robots - Approaches and Challenges from an Industrial Perspective
-***********************************************************************************************************************
+***************************************************************************************************************************
    *9:00 - 10:00* -- Michaela Klauck
 
 **Keynote abstract:**
@@ -9,7 +9,7 @@ We establish a theoretical background on quality of software-intensive products,
 
 
 **Bio. Michaela Klauck** is a research engineer at Bosch Research in Renningen.
-Her mission it to make the behavior of autonomous sytems (e.g., cars or robots) more reliably and robust.
+Her mission it to make the behavior of autonomous systems (e.g., cars or robots) more reliably and robust.
 In addition, trustworthiness and explainability of AI systems is of utmost important to her and she believe that formal verification provides important support to achieve these goals.
 Her focus lies in the verification of planning and decision-making in autonomous systems.
 She is working on model-checking robotic deliberation and autonomous driving behavior.
