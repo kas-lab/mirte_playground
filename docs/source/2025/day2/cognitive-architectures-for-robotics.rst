@@ -1,6 +1,6 @@
-*****************************************************************
-*Keynote:* Cognitive Architectures for Robust and Reliable Robotics
-*****************************************************************
+*********************************************************************
+**Keynote:** Cognitive Architectures for Robust and Reliable Robotics
+*********************************************************************
    *9:00 - 10:30* -- Esther Aguado
 
 In this keynote, I will introduce the field of cognitive architectures: control frameworks that allow robots to reason, plan, and make decisions in intelligent and flexible ways.

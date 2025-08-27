@@ -1,6 +1,6 @@
-*****************************************************************************
+*********************************************************************************
 **Keynote:** Software and systems design process: Introducing the whole lifecycle
-*****************************************************************************
+*********************************************************************************
    *09:00 - 10:30* -- Davide Brugali
 
 **Bio Prof. Davide Brugali** graduated in Electronic Engineering at Politecnico di Milano in 1994; he received the PhD in Computer Science from Politecnico di Torino in 1998.

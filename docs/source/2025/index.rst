@@ -9,11 +9,13 @@ One of the highlights of the school was the hands-on the participants enjoyed us
 Each day covered a topic in engineering the software of a robot:
 
 - *Day 1: Building and Deploying Robotic Systems.* The students got a crash course on ROS2 from Jose Miguel Guerrero and the team at the Intelligent Robotics Lab (URJC, Spain), with practical hands-on using our home-built Mirte Master robots, thanks to our colleagues Martin Klomp, Arend-Jan van Hilten, and Jasper van Brakel (TUD).
+
 To close the day, everyone enjoyed a sunny and delicious evening at the Vakwerkhuis cafe near the campus.
 
 - *Day 2: Deliberation, Planning, and Execution in Robotic Architectures.* After an inspiring keynote on “Cognitive Architectures for Robust and Reliable Robotics” from Esther Aguado (URJC, Spain), the students learned with Francisco J. Rodríguez Lera (Uni. Leon) how to use PDDL to program automated planning and integrate it in a layered robotic architecture capable of planning and executing tasks with PlanSys2. With our colleague Gustavo Rezende (TUD), the students experience how to plan and execute a navigation task with the MIRTE robots.
 
 - *Day 3: Robot software architecting and modeling.* Davide Brugali (Uni Bergamo. Italy) shared his insights about the Software and systems design process in his keynote. Then the students got familiar wiht systems engineering modelling in a tutorial exercise with Carlos Hernandez (TUD), and Ilias Gerostathopoulos  (VU Amsterdam) discussed with them what self-adaptive systems are and why they are useful in robotics. Then, Elvin Alberts (TUD, VU Amsterdam) gave a tutorial programming self-adaptation on the MIRTE robot using behaviour trees, with his framework ReBeT.
+
 To conclude the day, everyone enjoyed a typical boat tour, with rain and run, along the beautiful canals of Delft’s city center.
 
 - *Day 4: Verification and Validation of Autonomous Robots.* Michaela Klauck (Bosch, Germany) ran an impressive solo marathon, including an eye-opener keynote about reliability for robot software in industry, and lectures and hands-on tutorials on formal methods for verification, including model checking and the tooling they are developing for it in the CONVINCE EU project.

@@ -3,7 +3,7 @@ Day 2 -- July 1st: Deliberation, Planning, and Execution in Robotic Architecture
 =================================================================================
 
 Lectures
--------------
+--------
 
 .. toctree::
    :maxdepth: 2
@@ -13,7 +13,7 @@ Lectures
 
 
 Practical Sessions
------------------
+------------------
 
 .. toctree::
    :maxdepth: 2
