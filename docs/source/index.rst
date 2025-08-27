@@ -7,7 +7,7 @@
 ACM SIGSOFT Summer School for Software Engineering in Robotics
 ==============================================================
 
-This websites containts the materials for the :abbr:`SE-Robotics Summer School (ACM SIGSOFT Summer School for Software Engineering in Robotics)`.
+This websites contains the materials for the :abbr:`SE-Robotics Summer School (ACM SIGSOFT Summer School for Software Engineering in Robotics)`.
 
 The **Software Engineering in Robotics (SE-Robotics) series** of PhD schools is designed to provide a balanced mix of theoretical knowledge and hands-on practice, targeting essential areas of software engineering specifically tailored for robotics.
 

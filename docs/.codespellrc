@@ -1,0 +1,4 @@
+[codespell]
+	skip = ./venv/*,./build/*,*.pdf
+	dictionary = .codespell-dictionary,-,.codespell-dictionary
+	ignore-words = .codespell-ignore
